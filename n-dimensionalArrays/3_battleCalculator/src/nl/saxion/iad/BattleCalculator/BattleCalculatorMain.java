@@ -3,6 +3,7 @@ package nl.saxion.iad.BattleCalculator;
 import nl.saxion.app.SaxionApp;
 
 import java.awt.*;
+import java.text.DecimalFormat;
 import java.util.Random;
 
 public class BattleCalculatorMain implements Runnable {
@@ -35,9 +36,8 @@ public class BattleCalculatorMain implements Runnable {
             SaxionApp.print("What is the toughness of the defender?: ", Color.cyan);
             int toughness = SaxionApp.readInt();
             SaxionApp.printLine();
-            SaxionApp.printLine("There is " + calculateSuccessChange(strength, toughness) * 100 + "% success chance to hit the enemy!");
-
-            //TODO: show success (part 2)
+            SaxionApp.printLine("There is " + new DecimalFormat("##.##").format(calculateSuccessChange(strength, toughness) * 100) + "% success chance to hit the enemy!");
+            SaxionApp.printLine("the attack " + (rollDice(strength, toughness) ? "was SUCCESFULL!" : "FAILED!"));
 
 
             SaxionApp.printLine();
@@ -51,8 +51,19 @@ public class BattleCalculatorMain implements Runnable {
 
 
     public double calculateSuccessChange(int strength, int toughness) {
-        return (double) (wounds[strength][toughness]) / 6;
+        int rollToBeat = wounds[strength - 1][toughness - 1];
 
+        if (rollToBeat == -1) {
+            return 0.0;
+        }
+
+        return ((double) (7 - rollToBeat)) / 6;
+    }
+
+    public boolean rollDice(int strength, int toughness) {
+        int rollToBeat = wounds[strength - 1][toughness - 1];
+        int roll = new Random().nextInt(6) + 1;
+        return roll >= rollToBeat;
     }
 
 

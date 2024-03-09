@@ -1,4 +1,5 @@
 package nl.saxion.iad.WeatherForecast;
+
 import nl.saxion.app.SaxionApp;
 
 import java.io.File;
@@ -7,9 +8,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class WeatherForecastMain implements Runnable {
-    int[][][] weatherForecast = new int[10][24][2]; //days-hours-(temp/sunPercentage)
+    int[][][] weatherForecast = new int[10][24][2];
 
-    public void run(){
+    public void run() {
         ArrayList<String> lines = readFromFile("6_weatherForecast/weatherForecast.txt");
         lines.remove(0);
         readData(lines);
@@ -17,9 +18,11 @@ public class WeatherForecastMain implements Runnable {
     }
 
     public void readData(ArrayList<String> lines) {
-        for (int i = 0; i < lines.size(); i++) {
+        int maxDays = Math.min(10, lines.size());
+        for (int i = 0; i < maxDays; i++) {
             String[] tokens = lines.get(i).split(",");
-            for (int j = 0; j < tokens.length; j++) {
+            int maxHours = Math.min(24, tokens.length);
+            for (int j = 0; j < maxHours; j++) {
                 weatherForecast[i][j][0] = Integer.parseInt(tokens[j]);
             }
         }
@@ -50,27 +53,26 @@ public class WeatherForecastMain implements Runnable {
         SaxionApp.printLine("Best day for BBQ: Day " + (bestDay + 1) + ", Score: " + maxScore);
     }
 
-
-    /***
-     * This method returns an ArrayList where each entry is a single line from the input file
-     * @param pathName
-     * @return
+    /**
+     * This method reads data from a file and returns an ArrayList where each entry is a single line from the input file
+     *
+     * @param pathName The path to the file to read
+     * @return An ArrayList containing lines of text from the file
      */
-    public static ArrayList<String> readFromFile(String pathName){
+    public static ArrayList<String> readFromFile(String pathName) {
         ArrayList<String> result = new ArrayList<>();
         try {
             File file = new File(pathName);
             Scanner scanner = new Scanner(file);
-            while(scanner.hasNext()){
+            while (scanner.hasNextLine()) {
                 result.add(scanner.nextLine());
             }
-        }catch (FileNotFoundException fileNotFoundException){
+            scanner.close();
+        } catch (FileNotFoundException fileNotFoundException) {
             SaxionApp.printLine(fileNotFoundException);
         }
         return result;
     }
-
-
 
     public static void main(String[] args) {
         SaxionApp.start(new WeatherForecastMain(), 1024, 768);
