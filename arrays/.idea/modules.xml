@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_arrayBasics/1_arrayBasics.iml" filepath="$PROJECT_DIR$/1_arrayBasics/1_arrayBasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_cipher/2_cipher.iml" filepath="$PROJECT_DIR$/2_cipher/2_cipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_arrayComparing/3_arrayComparing.iml" filepath="$PROJECT_DIR$/3_arrayComparing/3_arrayComparing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_gymRow/4_gymRow.iml" filepath="$PROJECT_DIR$/4_gymRow/4_gymRow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_countingCharacters/5_countingCharacters.iml" filepath="$PROJECT_DIR$/5_countingCharacters/5_countingCharacters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_assignGrades/6_assignGrades.iml" filepath="$PROJECT_DIR$/6_assignGrades/6_assignGrades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7_elimination/7_elimination.iml" filepath="$PROJECT_DIR$/7_elimination/7_elimination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/X_Misc/X_Misc.iml" filepath="$PROJECT_DIR$/X_Misc/X_Misc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/arrays.iml" filepath="$PROJECT_DIR$/.idea/arrays.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+ideeen voor opdrachten:
+
+bomenalgoritme (AOC):
+- bepaal vanaf welke positie je het verst het bos in kan kijken adhv de hoogte vd bomen
+- bepaal wat de beste positie is voor een boomhut
+
+
+Boter kaas en eieren
+- Maak het grid, laat de speler een input geven. Laat daarna jouw AI de beste optie kiezen!
+
+Minecraft:
+- Je krijgt een aantal 3D coordinaten (1,2,1), (2,2,2), etc
+- Sla die op in een 3D array
+- Schrijf een algoritme die teruggeeft hoeveel blokken er grenzen aan een bepaald coordinaat (excl diagonalen).
+
+Containers 2D
+- Stapel containers op elkaar volgens bepaalde instructies, enkel de bovenste van een stapel kan eraf gehaald worden. Containers worden opgeslagen op een NxM grid
+
+Containers 3D
+- Stapel containers op elkaar volgens bepaalde instructies, enkel de bovenste van een stapel kan eraf gehaald worden. Containers worden opgeslagen op een NxMxO grid
+
+MineSweeper
+- Genereer een grid voor minesweeper van NxM
+
+Plaats X bommen
+- Een bom mag max aan 2 andere bommen grenzen
+
+
+uit boek:
+- bereken de som van een horizontale/verticale/diagonale lijn door een 2D grid
+- working hours
+- find smallest value in 2D array
+-

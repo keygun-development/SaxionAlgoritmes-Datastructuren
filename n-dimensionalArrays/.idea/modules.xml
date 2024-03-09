@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_studentGrading/1_studentGrading.iml" filepath="$PROJECT_DIR$/1_studentGrading/1_studentGrading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_gridMovement/2_gridMovement.iml" filepath="$PROJECT_DIR$/2_gridMovement/2_gridMovement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_battleCalculator/3_battleCalculator.iml" filepath="$PROJECT_DIR$/3_battleCalculator/3_battleCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_vigenereCipher/4_vigenereCipher.iml" filepath="$PROJECT_DIR$/4_vigenereCipher/4_vigenereCipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_visibleTrees/5_visibleTrees.iml" filepath="$PROJECT_DIR$/5_visibleTrees/5_visibleTrees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_weatherForecast/6_weatherForecast.iml" filepath="$PROJECT_DIR$/6_weatherForecast/6_weatherForecast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/n-dimensionalArrays.iml" filepath="$PROJECT_DIR$/.idea/n-dimensionalArrays.iml" />
+    </modules>
+  </component>
+</project>
