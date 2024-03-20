@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_arraylist/1_arraylist.iml" filepath="$PROJECT_DIR$/1_arraylist/1_arraylist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_remove/2_remove.iml" filepath="$PROJECT_DIR$/2_remove/2_remove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_drinking_game/3_drinking_game.iml" filepath="$PROJECT_DIR$/3_drinking_game/3_drinking_game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_cardgame/4_cardgame.iml" filepath="$PROJECT_DIR$/4_cardgame/4_cardgame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lists-solution.iml" filepath="$PROJECT_DIR$/lists-solution.iml" />
+    </modules>
+  </component>
+</project>

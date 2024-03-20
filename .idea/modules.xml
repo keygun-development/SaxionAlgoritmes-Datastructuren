@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/arrays/1_arrayBasics/1_arrayBasics.iml" filepath="$PROJECT_DIR$/arrays/1_arrayBasics/1_arrayBasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/introduction/1_dice/1_dice.iml" filepath="$PROJECT_DIR$/introduction/1_dice/1_dice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n-dimensionalArrays/1_studentGrading/1_studentGrading.iml" filepath="$PROJECT_DIR$/n-dimensionalArrays/1_studentGrading/1_studentGrading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/2_cipher/2_cipher.iml" filepath="$PROJECT_DIR$/arrays/2_cipher/2_cipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n-dimensionalArrays/2_gridMovement/2_gridMovement.iml" filepath="$PROJECT_DIR$/n-dimensionalArrays/2_gridMovement/2_gridMovement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/introduction/2_numbers/2_numbers.iml" filepath="$PROJECT_DIR$/introduction/2_numbers/2_numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/3_arrayComparing/3_arrayComparing.iml" filepath="$PROJECT_DIR$/arrays/3_arrayComparing/3_arrayComparing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n-dimensionalArrays/3_battleCalculator/3_battleCalculator.iml" filepath="$PROJECT_DIR$/n-dimensionalArrays/3_battleCalculator/3_battleCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/introduction/3_roman/3_roman.iml" filepath="$PROJECT_DIR$/introduction/3_roman/3_roman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/4_gymRow/4_gymRow.iml" filepath="$PROJECT_DIR$/arrays/4_gymRow/4_gymRow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n-dimensionalArrays/4_vigenereCipher/4_vigenereCipher.iml" filepath="$PROJECT_DIR$/n-dimensionalArrays/4_vigenereCipher/4_vigenereCipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/5_countingCharacters/5_countingCharacters.iml" filepath="$PROJECT_DIR$/arrays/5_countingCharacters/5_countingCharacters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n-dimensionalArrays/5_visibleTrees/5_visibleTrees.iml" filepath="$PROJECT_DIR$/n-dimensionalArrays/5_visibleTrees/5_visibleTrees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/6_assignGrades/6_assignGrades.iml" filepath="$PROJECT_DIR$/arrays/6_assignGrades/6_assignGrades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n-dimensionalArrays/6_weatherForecast/6_weatherForecast.iml" filepath="$PROJECT_DIR$/n-dimensionalArrays/6_weatherForecast/6_weatherForecast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/7_elimination/7_elimination.iml" filepath="$PROJECT_DIR$/arrays/7_elimination/7_elimination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Algoritmen en Datastructuren.iml" filepath="$PROJECT_DIR$/.idea/Algoritmen en Datastructuren.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pathfinder/Pathfinder.iml" filepath="$PROJECT_DIR$/Pathfinder/Pathfinder.iml" />
+    </modules>
+  </component>
+</project>

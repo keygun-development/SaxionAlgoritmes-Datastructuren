@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SaxionApp1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/arrays/resources/SaxionApp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

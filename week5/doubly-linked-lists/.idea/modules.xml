@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/0. cursor/0. cursor.iml" filepath="$PROJECT_DIR$/0. cursor/0. cursor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. reverse-words/1. reverse-words.iml" filepath="$PROJECT_DIR$/1. reverse-words/1. reverse-words.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. sort-words/2. sort-words.iml" filepath="$PROJECT_DIR$/2. sort-words/2. sort-words.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubly-linked-lists.iml" filepath="$PROJECT_DIR$/doubly-linked-lists.iml" />
+    </modules>
+  </component>
+</project>
