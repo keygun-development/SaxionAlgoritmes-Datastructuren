@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/0_introductionToRecursion/0_introductionToRecursion.iml" filepath="$PROJECT_DIR$/0_introductionToRecursion/0_introductionToRecursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_factorial/1_factorial.iml" filepath="$PROJECT_DIR$/1_factorial/1_factorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_fibonacci/2_fibonacci.iml" filepath="$PROJECT_DIR$/2_fibonacci/2_fibonacci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_reversedString/3_reversedString.iml" filepath="$PROJECT_DIR$/3_reversedString/3_reversedString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_stepsToSolve/4_stepsToSolve.iml" filepath="$PROJECT_DIR$/4_stepsToSolve/4_stepsToSolve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_GCD/5_GCD.iml" filepath="$PROJECT_DIR$/5_GCD/5_GCD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_strangeLanguage/6_strangeLanguage.iml" filepath="$PROJECT_DIR$/6_strangeLanguage/6_strangeLanguage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7_interest/7_interest.iml" filepath="$PROJECT_DIR$/7_interest/7_interest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recursion.iml" filepath="$PROJECT_DIR$/recursion.iml" />
+    </modules>
+  </component>
+</project>
