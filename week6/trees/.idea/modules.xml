@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1. family-tree/1. family-tree.iml" filepath="$PROJECT_DIR$/1. family-tree/1. family-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. decision-tree/2. decision-tree.iml" filepath="$PROJECT_DIR$/2. decision-tree/2. decision-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3. tree-order/3. tree-order.iml" filepath="$PROJECT_DIR$/3. tree-order/3. tree-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4. folder-structure/4. folder-structure.iml" filepath="$PROJECT_DIR$/4. folder-structure/4. folder-structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5. sorted-tree/5. sorted-tree.iml" filepath="$PROJECT_DIR$/5. sorted-tree/5. sorted-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. tree-removal/6. tree-removal.iml" filepath="$PROJECT_DIR$/6. tree-removal/6. tree-removal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trees.iml" filepath="$PROJECT_DIR$/trees.iml" />
+    </modules>
+  </component>
+</project>
